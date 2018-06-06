@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+    background-color:black;
+}
+div {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(15, 10, 10);
+    display: inline-table;
+    margin: 10px;
+    text-align: center;
+    vertical-align:middle;
+    padding-top: 30px;
+    font-weight:bold;
+    transition:all 1000ms ease;
+}
+div:hover{
+    background-color: gray;
+    text-decoration: line-through;
+
+
+}
