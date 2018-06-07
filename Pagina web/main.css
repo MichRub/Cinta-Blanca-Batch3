@@ -1,6 +1,7 @@
 body{
     background-color: darkgreen;
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 nav{
@@ -30,13 +31,42 @@ i{
 
 }
 nav div:hover{
-    background-color: darkolivegreen;
+    background-color: rgba(66, 90, 25, 0.849);
 }
 i:hover{
     background-color:gainsboro;
-    
-    
 }
+
+
+
+.articulo{
+    width: 100vw;
+    text-align:center;
+}
+.articulo h1, .articulo h2{
+    margin:0px;
+ } 
+ .articulo h1{
+ color:rgb(43, 124, 43);
+    font-size: 100px;
+ }
+
+.articulo h2{
+    color:white;
+    font-size:70px;
+}
+.articulo div{
+    padding: 40px;
+    background-color: rgba(175, 26, 26, 0.459);
+    color:white;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
 /*
 Breakpint de Tableta
 */
