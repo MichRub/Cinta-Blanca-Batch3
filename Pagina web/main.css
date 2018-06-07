@@ -1,0 +1,55 @@
+body{
+    background-color: darkgreen;
+    margin: 0px;
+}
+
+nav{
+    background-color: white;
+    height: 80px;
+
+}
+
+ #logo{
+     width: 150px;
+     padding-top:13px;
+ }
+nav div {
+    height:80 px;
+    float:right;
+}
+i{
+    color: gray;
+    font-size: 40px;
+    vertical-align:top;
+    margin-top:20px;
+    padding-top: 15px;
+    float:right;
+    margin-left: 15px;
+    margin-right: 15px;
+    transition: all 1000ms ease;
+
+}
+nav div:hover{
+    background-color: darkolivegreen;
+}
+i:hover{
+    background-color:gainsboro;
+    
+    
+}
+/*
+Breakpint de Tableta
+*/
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: lightgreen;
+    
+}
+/*breakpoint de celular*/
+
+@media screen and (max-width:480px){
+#logo{
+    display:none;
+}
+}
