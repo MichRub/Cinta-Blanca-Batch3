@@ -7,13 +7,14 @@ body{
 nav{
     background-color: white;
     height: 80px;
-
 }
 
  #logo{
      width: 150px;
      padding-top:13px;
  }
+
+
 nav div {
     height:80 px;
     float:right;
@@ -36,11 +37,18 @@ nav div:hover{
 i:hover{
     background-color:gainsboro;
 }
+#logochiquito{
+    display:none;
+
+}
+.contenedor-imagen{
+    display:none;
+}
 
 
 
-.articulo{
-    width: 100vw;
+
+.articulo h1, .articulo h2{
     text-align:center;
 }
 .articulo h1, .articulo h2{
@@ -48,22 +56,22 @@ i:hover{
  } 
  .articulo h1{
  color:rgb(43, 124, 43);
-    font-size: 100px;
+    font-size: 70px;
  }
 
 .articulo h2{
     color:white;
-    font-size:70px;
+    font-size:50px;
 }
-.articulo div{
+.articulo div.naranja{
     padding: 40px;
     background-color: rgba(175, 26, 26, 0.459);
     color:white;
     width: 75vw;
     margin-left: auto;
     margin-right: auto;
-
 }
+
 
 
 
@@ -72,14 +80,61 @@ Breakpint de Tableta
 */
 
 @media screen and (max-width: 768px) {
-    body {
-        background-color: lightgreen;
     
 }
 /*breakpoint de celular*/
 
 @media screen and (max-width:480px){
-#logo{
-    display:none;
-}
+
+    #logo{
+        display:none;
+    }
+    #logochiquito{
+        display: inline-block;
+        width: 60px;
+        margin-top: 12px
+    }
+    .articulo{
+        padding:5vw;
+        width: 90vw;
+    }
+
+    .articulo h1, .articulo h2{
+        display: inline-block
+    }
+    .articulo h1{
+        font-size: 35px
+    }
+    .articulo h2{
+        font-size:22px;
+        margin-top: -30px;
+        letter-spacing: 5px;
+    }
+    div.contenedor-imagen{
+        height:17vw;
+        width: 17vw;
+        float:left;
+    }
+    div.contenedor-headers{
+        height:17vw;
+        width:70vw;
+        margin:0px;
+        float:left;
+        margin-left:6px;
+    }
+    div.contenedor-imagen img{
+        vertical-align:middle;
+    }
+    .articulo div.naranja{
+        width: -webkit-fill-available;
+        display: inline-block;
+        margin-top: 20px;
+    }
+    div.contenedor-imagen{
+        width: 60px;
+        display: inline-block;
+    }
+    .div.contenedor-imagen img{
+        vertical-align: middle;
+    }
 }
