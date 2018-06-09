@@ -1,5 +1,5 @@
 body{
-    background-color: darkgreen;
+   
     margin: 0px;
     font-family: 'Roboto', sans-serif;
 }
@@ -29,7 +29,6 @@ i{
     margin-left: 15px;
     margin-right: 15px;
     transition: all 1000ms ease;
-
 }
 nav div:hover{
     background-color: rgba(66, 90, 25, 0.849);
@@ -44,21 +43,28 @@ i:hover{
 .contenedor-imagen{
     display:none;
 }
-
-
-
-
 .articulo h1, .articulo h2{
     text-align:center;
 }
 .articulo h1, .articulo h2{
-    margin:0px;
+    margin:0px; 
  } 
  .articulo h1{
- color:rgb(43, 124, 43);
+    color:rgb(43, 124, 43);
     font-size: 70px;
  }
-
+ .articulo{
+     width:90vw;
+     text-align:center;
+     padding: 5vw;
+    background-size: cover;
+ }
+ .fondo_1{
+     background-image: url('img/fondojeep.png');
+ }
+ .fondo_2{
+     background-image:url('img/fondojeep3.jpg')
+ }
 .articulo h2{
     color:white;
     font-size:50px;
@@ -72,6 +78,12 @@ i:hover{
     margin-right: auto;
 }
 
+.articulo-blanco{
+    text-align:center;
+    background-color:white;
+    padding:5%;
+    color:gray;
+}
 
 
 
@@ -95,8 +107,10 @@ Breakpint de Tableta
         margin-top: 12px
     }
     .articulo{
-        padding:5vw;
+        padding:20vw;
         width: 90vw;
+        text-align:center;
+        background-color: darkolivegreen;
     }
 
     .articulo h1, .articulo h2{
@@ -128,13 +142,18 @@ Breakpint de Tableta
     .articulo div.naranja{
         width: -webkit-fill-available;
         display: inline-block;
-        margin-top: 20px;
+        margin-top: 20px; 
     }
+
     div.contenedor-imagen{
         width: 60px;
         display: inline-block;
     }
     .div.contenedor-imagen img{
         vertical-align: middle;
+
     }
-}
+   
+
+    }
+
