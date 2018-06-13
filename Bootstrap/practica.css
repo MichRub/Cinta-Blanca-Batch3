@@ -1,0 +1,13 @@
+body{
+
+}
+div {
+    width: 100px;
+    height: 50px;
+    display: inline-table;
+    background-color: pink 10px;
+    text-align: center;
+    vertical-align:middle;
+    padding-top: 30px;
+    font-weight:bold;
+    transition:all 1000ms ease;}
