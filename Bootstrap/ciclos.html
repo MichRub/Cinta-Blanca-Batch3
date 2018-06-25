@@ -9,6 +9,7 @@
 <body>
     
     <script>
+        /*
         for(let i=0; i<=1000; i++){
             if(i%2==0){
                 console.log('el valor es'+i);
@@ -16,11 +17,21 @@
            
         }
         // en un ciclo anidado, puedes poner un for con un ciclo for adentro del uno al 10 
-        for( let x=1; x<=10;x++){
-             console.log(`1 x ${x}=${1*x}`);
-                 }
-        
+        /*
+        for( let y=1; y<=10;y++){
+            console.log('la tabla del'+y);
+            for(let x=1; x<10;x++){
+                console.log(`$ {y} x ${x} =${y*x}`);
+            }
+        }  */
+        let contador=0;
+        for(let i=0; i<10000; i++){
+            if(i%2==0){
+                contador++;
+            }
         }
+            console.log(`existen ${contador} numeros pares`)
+        
 
     </script>
 </body>
