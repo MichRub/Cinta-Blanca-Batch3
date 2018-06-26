@@ -1,0 +1,21 @@
+body{
+    border:0px;
+    color:lightgoldenrodyellow;
+}
+
+
+
+div{
+    border: 1px solid pink;
+    background-color: lightgoldenrodyellow;
+    box-shadow: 10px 1px 1px 1px;
+    padding:16 px;
+    margin-top: 20px;
+    width: 90vw;
+}
+
+p{
+    margin: 0px;
+    display:inline-block;
+    margin-left: 5px;
+}
