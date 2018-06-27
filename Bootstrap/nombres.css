@@ -1,0 +1,26 @@
+body{
+margin: 0;
+background-color: lightgrey;
+font-family: 'Open Sans Condensed', sans-serif;
+
+}
+#el_contenedor{
+    margin-top: 20px;
+}
+
+#el_contenedor h2{
+    border:1px dashed grey;
+    width: 90vw;
+    padding:16px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+#el_contenedor h2:hover{
+    background-color: lightcyan;
+
+}
+#el_contenedor h2:active{
+    background-color: rgb(127, 143, 145);
+}
